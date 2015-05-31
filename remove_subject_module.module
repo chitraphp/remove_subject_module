@@ -1,10 +1,10 @@
 <?php
 function remove_subject_module_form_alter(&$form, &$form_state, $form_id) {
-  //print_r($form_id);
-  if($form_id == search_block_form) {
-    print '<pre>';
-    print_r($form);
-    print '</pre>';
+  print_r($form_id);
+  // if($form_id == search_block_form) {
+  //   print '<pre>';
+  //   print_r($form);
+  //   print '</pre>';
   }
 
 }
